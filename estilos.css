@@ -1,3 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+header{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav ul{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    list-style: none;
+    color: #242E52;
+}
+header nav ul a{
+    text-decoration: none;
+}
+
+header button{
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    background-color: #8B48BF;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: #FFFFFF;
+}
+
+section{
+    margin: 5%;
+}
+
+.sectionOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sectionOne div p{
+    color: #000;
+    text-align: right;
+    font-size: 16.558px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 157.1%;
+}
+h1{
+    color: #232C50;
+    text-align: right;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114.6%;
+    letter-spacing: -1.75px;
+}
+
+.sectionOne div{
+    width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   justify-content: space-between;
+}
+
+.sectionOne div button{
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    background-color: #8B48BF;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: #FFFFFF;
+ }
+
+.prosSection{
+    display: flex;
+    flex-direction: row;
+    background: #8B48BF;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.prosSection h2{
+    color: #FFF;
+    width: 50%;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114.6%;
+}
+
+.prosSection p{
+    width: 50%;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.1%;
+}
+
+.sectionTwo{
+    margin-left: 0;
+    margin-right: 0;
+}
+
 footer{
     background-color: blueviolet;
 }
